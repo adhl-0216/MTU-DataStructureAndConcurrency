@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Q4 {
-    public static void main(String[] args) {
+    public static Map<String, TreeSet<Integer>> hamletAnalysis() {
         Map<String, TreeSet<Integer>> map = new TreeMap<>();
         String fileName = "src/Lab1/hamlet.txt";
 
@@ -32,9 +32,8 @@ public class Q4 {
             e.printStackTrace();
         }
 
+        return map;
 
-
-        System.out.println(map);
     }
 
 }
