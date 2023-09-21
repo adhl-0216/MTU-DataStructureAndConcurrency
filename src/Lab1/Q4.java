@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Q4 {
     public static void main(String[] args) {
-        Map<String, Integer> map = new TreeMap<>();
+        Map<String, TreeSet<Integer>> map = new TreeMap<>();
         String fileName = "src/Lab1/hamlet.txt";
 
         try {
@@ -18,22 +18,23 @@ public class Q4 {
                 lineParser.useDelimiter("[^A-Za-z0-9]+");
                 while (lineParser.hasNext()) {
                     String word = lineParser.next();
-                    map.put(word, lineNumber);
-                    lineNumber++;
+                    if (!map.containsKey(word)){
+                        TreeSet<Integer> lineNumbers = new TreeSet<>();
+                        lineNumbers.add(lineNumber);
+                        map.put(word, lineNumbers);
+                    }else {
+                        map.get(word).add(lineNumber);
+                    }
                 }
+                lineNumber++;
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
-        Set<String> keys = map.keySet();
-        ArrayList<Integer> values = new ArrayList<>(map.values());
 
 
         System.out.println(map);
-        System.out.println(map.size());
-        System.out.println(keys.size());
-        System.out.println(values.size());
     }
 
 }

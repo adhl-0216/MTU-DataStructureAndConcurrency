@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cae2c67-4c55-4114-967e-1e94008a1d0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab1/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab1/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab1/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab1/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab1/hamlet.txt" afterDir="false" />
+    <list default="true" id="6cae2c67-4c55-4114-967e-1e94008a1d0c" name="Changes" comment="done?">
+      <change afterPath="$PROJECT_DIR$/test/Lab1/Q1Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSAC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab1/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Q1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab1/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Q4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,19 +18,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -42,6 +39,7 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProjectId" id="2Vhvpqg23WBeD848LO6VeYdKm0O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -49,26 +47,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/T00229173/MTU-DataStructureAndConcurrency/untitled/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/T00229173/MTU-DataStructureAndConcurrency/untitled/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -77,12 +75,13 @@
       <recent name="C:\Users\T00229173\MTU-DataStructureAndConcurrency\untitled\src\Lab1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Lab1" />
       <recent name="TestLab1" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.Q3" />
+    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab1.Q4" />
       <module name="DSAC" />
       <extension name="coverage">
         <pattern>
@@ -94,9 +93,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSAC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab1" />
+      <option name="MAIN_CLASS_NAME" value="Lab1.Q1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1Test.sub4Begin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSAC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab1" />
+      <option name="MAIN_CLASS_NAME" value="Lab1.Q1Test" />
+      <option name="METHOD_NAME" value="sub4Begin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1Test.sub4First" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSAC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab1" />
+      <option name="MAIN_CLASS_NAME" value="Lab1.Q1Test" />
+      <option name="METHOD_NAME" value="sub4First" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1Test.sub5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSAC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab1" />
+      <option name="MAIN_CLASS_NAME" value="Lab1.Q1Test" />
+      <option name="METHOD_NAME" value="sub5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q3" />
+        <item itemvalue="JUnit.Q1Test.sub5" />
+        <item itemvalue="Application.Q4" />
+        <item itemvalue="JUnit.Q1Test.sub4Begin" />
+        <item itemvalue="JUnit.Q1Test.sub4First" />
+        <item itemvalue="JUnit.Q1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -108,8 +174,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694696857861</updated>
-      <workItem from="1694696858938" duration="5962000" />
+      <workItem from="1694696858938" duration="6314000" />
+      <workItem from="1695301315987" duration="3935000" />
     </task>
+    <task id="LOCAL-00001" summary="done?">
+      <created>1694703200750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694703200750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +200,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done?" />
+    <option name="LAST_COMMIT_MESSAGE" value="done?" />
   </component>
 </project>

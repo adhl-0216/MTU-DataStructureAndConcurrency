@@ -3,15 +3,16 @@ package Lab1;
 import java.util.*;
 
 public class Q1 {
-    public static void main(String[] args) {
-        ListIterator<String> iterator;
+        private static final String[] names = {"Kay","Jay","May","Fay"};
+        private static ListIterator<String> iterator;
+        private static final LinkedList<String> linkedList = new LinkedList<>(Arrays.asList(names));
 
-        String[] names = {"Kay","Jay","May","Fay","Fay"};
+    public static LinkedList<String> getLinkedList() {
+        return linkedList;
+    }
 
-        LinkedList<String> linkedList = new LinkedList<>(Arrays.asList(names));
 
-
-//        (i)
+    public static void sub2(){
         iterator = linkedList.listIterator();
         while (iterator.hasNext()) {
             if (iterator.next().equals("May")) {
@@ -20,9 +21,9 @@ public class Q1 {
         }
 
         System.out.println(linkedList);
+    }
 
-
-//        (ii)
+    public static void sub3() {
         iterator = linkedList.listIterator();
 
         while (iterator.hasNext()) {
@@ -32,26 +33,28 @@ public class Q1 {
         }
 
         System.out.println(linkedList);
+    }
 
-//        (iii)
-
+    public static void sub4Begin(){
         iterator = linkedList.listIterator();
 
         while (iterator.hasNext()) {
             System.out.print(iterator.next() + ",");
         }
-        System.out.println();
 
-//        (iv)
 
+    }
+
+    public static void sub4Last(){
         Iterator<String> descendingIterator = linkedList.descendingIterator();
 
         while (descendingIterator.hasNext()) {
             System.out.print(descendingIterator.next() + ",");
         }
-        System.out.println();
 
-//        (v)
+    }
+
+    public static void sub5(){
         linkedList.add("Kay");
 
         iterator = linkedList.listIterator();
@@ -59,4 +62,6 @@ public class Q1 {
             System.out.printf(iterator.next() + ",");
         }
     }
+
+
 }
