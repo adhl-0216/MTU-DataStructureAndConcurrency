@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cae2c67-4c55-4114-967e-1e94008a1d0c" name="Changes" comment="done Q1Test">
-      <change afterPath="$PROJECT_DIR$/test/Lab1/Q3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Lab1/Q4Test.java" afterDir="false" />
+    <list default="true" id="6cae2c67-4c55-4114-967e-1e94008a1d0c" name="Changes" comment="done test">
+      <change afterPath="$PROJECT_DIR$/src/Lab2/CP3LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lab2/CP3LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Q3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Q4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Lab1/Q1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Lab1/Q1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,86 +71,90 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\T00229173\MTU-DataStructureAndConcurrency\untitled\src\Lab2" />
       <recent name="C:\Users\T00229173\MTU-DataStructureAndConcurrency\untitled\src\Lab1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Lab2" />
       <recent name="Lab1" />
       <recent name="TestLab1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Q4Test.hamletAnalysis">
-    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.Q4" />
+  <component name="RunManager">
+    <configuration name="CP3LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSAC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab1.*" />
+          <option name="PATTERN" value="Lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.CP3LinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1Test.sub4Begin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CP3LinkedListTest.addLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSAC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab1.*" />
+          <option name="PATTERN" value="Lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab1" />
-      <option name="MAIN_CLASS_NAME" value="Lab1.Q1Test" />
-      <option name="METHOD_NAME" value="sub4Begin" />
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.CP3LinkedListTest" />
+      <option name="METHOD_NAME" value="addLast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1Test.sub5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CP3LinkedListTest.removeLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSAC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab1.*" />
+          <option name="PATTERN" value="Lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab1" />
-      <option name="MAIN_CLASS_NAME" value="Lab1.Q1Test" />
-      <option name="METHOD_NAME" value="sub5" />
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.CP3LinkedListTest" />
+      <option name="METHOD_NAME" value="removeLast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q3Test.q3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CP3LinkedListTest.removeLast_whenEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSAC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab1.*" />
+          <option name="PATTERN" value="Lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab1" />
-      <option name="MAIN_CLASS_NAME" value="Lab1.Q3Test" />
-      <option name="METHOD_NAME" value="q3" />
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.CP3LinkedListTest" />
+      <option name="METHOD_NAME" value="removeLast_whenEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q4Test.hamletAnalysis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CP3LinkedListTest.sizeEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSAC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab1.*" />
+          <option name="PATTERN" value="Lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab1" />
-      <option name="MAIN_CLASS_NAME" value="Lab1.Q4Test" />
-      <option name="METHOD_NAME" value="hamletAnalysis" />
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.CP3LinkedListTest" />
+      <option name="METHOD_NAME" value="sizeEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Q4Test.hamletAnalysis" />
-        <item itemvalue="JUnit.Q3Test.q3" />
-        <item itemvalue="JUnit.Q1Test.sub5" />
-        <item itemvalue="Application.Q4" />
-        <item itemvalue="JUnit.Q1Test.sub4Begin" />
+        <item itemvalue="JUnit.CP3LinkedListTest.removeLast_whenEmpty" />
+        <item itemvalue="JUnit.CP3LinkedListTest.removeLast" />
+        <item itemvalue="JUnit.CP3LinkedListTest" />
+        <item itemvalue="JUnit.CP3LinkedListTest.addLast" />
+        <item itemvalue="JUnit.CP3LinkedListTest.sizeEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +179,8 @@
       <option name="presentableId" value="Default" />
       <updated>1694696857861</updated>
       <workItem from="1694696858938" duration="6314000" />
-      <workItem from="1695301315987" duration="5222000" />
+      <workItem from="1695301315987" duration="5541000" />
+      <workItem from="1695906194875" duration="4434000" />
     </task>
     <task id="LOCAL-00001" summary="done?">
       <created>1694703200750</created>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695305681748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done test">
+      <created>1695307015989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695307015989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +223,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done?" />
     <MESSAGE value="done Q1Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="done Q1Test" />
+    <MESSAGE value="done test" />
+    <option name="LAST_COMMIT_MESSAGE" value="done test" />
   </component>
 </project>
